@@ -1,0 +1,59 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.navbar-logo {
+    color: rgb(234, 152, 2);
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+.navbar-menu ul {
+    display: flex;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-menu ul li {
+    color: rgb(234, 152, 2);
+    padding: 24px;
+    font-size: 20px;
+
+    
+}
+
+.navbar-menu ul li:hover{
+    background-color: rgb(237, 236, 236);
+}
+
+.navbar-login {
+    padding: 15px 40px;
+}
+
+.navbar-login button {
+    background-color:whitesmoke ;
+    font-size: 20px;
+    color: rgb(234, 152, 2);
+    padding: 8px;
+    border: 2px solid rgb(234, 152, 2);
+    border-radius: 10px;
+}
+
+.navbar-login button:hover{
+    background-color: rgb(234, 152, 2);
+    color: whitesmoke;
+}
+
+
